@@ -27,10 +27,14 @@ const Contact = () => {
       
     emailjs
       .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
+        // "service_niilndo",
+        // "template_6z5idye",
+        // form.current,
+        // "VOBt6Akm1LhI5CZG-"
+        "service_jvvpuem",
+        "template_el56bw8",
         form.current,
-        "VOBt6Akm1LhI5CZG-"
+        "CMCvtJBtq1jIVG93L",
       )
       .then(
         (result) => {
@@ -38,7 +42,7 @@ const Contact = () => {
           setDone(true);
         },
         (error) => {
-          console.log(error.text);
+          console.log(error);
         }
       );
     }
