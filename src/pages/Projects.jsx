@@ -80,7 +80,7 @@ const Projects = () => {
       title: "Paralegal Web App",
       description:"This paralegal web app is designed to enhance the academic experience for students and administrators alike. With features such as personalized school portals, dedicated student and admin logins, and seamless integration with Paystack for secure payments, users can easily manage their educational needs. The app allows for PDF receipt downloads for transactions, simplifying record-keeping. Additionally, students can register for hostel accommodations directly through the portal. With a user-friendly interface and robust functionality, this app aims to streamline administrative processes while providing an efficient platform for students to access vital resources.",
       ghLink:"https://github.com/oriakhiosamu1/paralegal_web_app ",
-      demoLink:"https://github.com/oriakhiosamu1/paralegal_web_app ",
+      demoLink:"https://ugipnig.com/",
     },
   ];
 
