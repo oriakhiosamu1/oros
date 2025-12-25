@@ -9,12 +9,34 @@ import paralegal from '../assets/projects/paralegal.png'
 import laravelReact from '../assets/projects/laravel-react.jpg'
 import oxbow from '../assets/projects/oxbow.png'
 import acelife from '../assets/projects/acelife.png'
+import bookguru from '../assets/projects/bookguru.png'
+import realestate from '../assets/projects/realestate.png'
 
 const Projects = () => {
 
   const recentWorks = [
     {
       id: 1,
+      imgPath: realestate,
+      isBlog:false,
+      title: "Real Estate Website",
+      description:"ChristesRealEstate is a web-based real estate management system designed to streamline property, agent, blog, and payment administration from a centralized dashboard. The application features a modular React frontend with role-based admin controls, dynamic CRUD operations, and editable payment workflows (including real-time status and property type updates). It is architected to support scalable backend integration (Laravel API), clean state management, and future production deployment, with a strong focus on maintainability, data consistency, and operational efficiency.",
+      // ghLink: "https://github.com/oriakhiosamu1/oxbow",
+      demoLink: "https://christeesrealestate.com/",
+    },
+
+    {
+      id: 2,
+      imgPath: bookguru,
+      isBlog:false,
+      title: "Bookguru E-Learning Website",
+      description:"Bookguru E-Learning Website is a comprehensive e-learning platform designed to help students acquire in-demand technology skills while also preparing for secondary school examinations. The system provides structured tech courses, interactive learning resources, and a computer-based testing module that allows students to practice WAEC and NECO past questions with guided answers. The platform is built with scalability in mind, supporting user authentication, progress tracking, and future expansion into advanced assessments and analytics.", 
+      // ghLink: "https://github.com/oriakhiosamu1/oxbow",
+      demoLink: "https://www.bookguru.com.ng",
+    },
+
+    {
+      id: 3,
       imgPath: oxbow,
       isBlog:false,
       title: "Oxbow Lake Hotel",
@@ -24,7 +46,7 @@ const Projects = () => {
     },
 
     {
-      id: 2,
+      id: 4,
       imgPath: acelife,
       isBlog:false,
       title: "Acelife Synergy",
@@ -34,7 +56,7 @@ const Projects = () => {
     },
 
     {
-      id: 3,
+      id: 5,
       imgPath: rumax,
       isBlog:false,
       title: "Rumax Technology",
@@ -44,7 +66,7 @@ const Projects = () => {
     },
 
     {
-      id: 4,
+      id: 6,
       imgPath: saxo,
       isBlog:false,
       title: "Saxo Investment Company",
@@ -54,7 +76,7 @@ const Projects = () => {
     },
 
     {
-      id: 5,
+      id: 7,
       imgPath: myjob,
       isBlog:false,
       title: "Job Listing Website",
@@ -64,7 +86,7 @@ const Projects = () => {
     },
 
     {
-      id: 6,
+      id: 8,
       imgPath: laravelReact,
       isBlog:false,
       title: "E-Commerce Website",
@@ -74,7 +96,7 @@ const Projects = () => {
     },
 
     {
-      id: 7,
+      id: 9,
       imgPath: paralegal,
       isBlog:false,
       title: "Paralegal Web App",
