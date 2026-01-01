@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Real Estate Website",
       description:"ChristesRealEstate is a web-based real estate management system designed to streamline property, agent, blog, and payment administration from a centralized dashboard. The application features a modular React frontend with role-based admin controls, dynamic CRUD operations, and editable payment workflows (including real-time status and property type updates). It is architected to support scalable backend integration (Laravel API), clean state management, and future production deployment, with a strong focus on maintainability, data consistency, and operational efficiency.",
       // ghLink: "https://github.com/oriakhiosamu1/oxbow",
-      demoLink: "https://christeesrealestate.com/",
+      demoLink: "https://christieesrealestate.com/",
     },
 
     {
