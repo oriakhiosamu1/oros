@@ -11,6 +11,7 @@ import oxbow from '../assets/projects/oxbow.png'
 import acelife from '../assets/projects/acelife.png'
 import bookguru from '../assets/projects/bookguru.png'
 import realestate from '../assets/projects/realestate.png'
+import banking from '../assets/projects/banking.png'
 
 const Projects = () => {
 
@@ -57,12 +58,12 @@ const Projects = () => {
 
     {
       id: 5,
-      imgPath: rumax,
+      imgPath: banking,
       isBlog:false,
-      title: "Rumax Technology",
-      description:"This web project is an e-commerce platform designed for the seamless sale of hardware and software products. Users can easily browse, compare, and purchase a wide range of items, from cutting-edge computer components to essential software applications. With a user-friendly interface, secure payment, this platform aims to enhance the shopping experience while providing valuable information and support through detailed product description to customers.",
+      title: "Banking Website",
+      description:"A secure and modern online banking platform where customers can manage accounts, transfer funds, pay bills, and track transactions — all in one place.",
       ghLink: "https://github.com/oriakhiosamu1/rumax_tech",
-      demoLink: "https://rumaxtechnology.online/",
+      demoLink: "https://clrst.online/",
     },
 
     {
