@@ -2,14 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import saxo from '../assets/projects/saxo.png'
-import myjob from '../assets/projects/myjob.png'
 import paralegal from '../assets/projects/paralegal.png'
-import laravelReact from '../assets/projects/laravel-react.jpg'
 import oxbow from '../assets/projects/oxbow.png'
-import acelife from '../assets/projects/acelife.png'
 import realestate from '../assets/projects/realestate.png'
-import banking from '../assets/projects/banking.png'
 import pulsedex from '../assets/projects/pulsedex.png'
 
 const Projects = () => {
@@ -47,56 +42,6 @@ const Projects = () => {
 
     {
       id: 4,
-      imgPath: acelife,
-      isBlog:false,
-      title: "Acelife Synergy",
-      description:"Acelife Synergy is a modern e-commerce platform offering a seamless online shopping experience. Built with robust security features, it integrates Google OAuth for secure authentication, Google ReCaptcha to prevent bot traffic, and a reliable payment gateway system for processing transactions. The platform combines user-friendly design with strong backend functionality for smooth product browsing, checkout and order management.",
-      ghLink: "https://github.com/oriakhiosamu1/acelife",
-      demoLink: "https://www.acelifesynergy.shop/",
-    },
-
-    {
-      id: 5,
-      imgPath: banking,
-      isBlog:false,
-      title: "Banking Website",
-      description:"A secure and modern online banking platform where customers can manage accounts, transfer funds, pay bills, and track transactions — all in one place.",
-      ghLink: "https://github.com/oriakhiosamu1/rumax_tech",
-      demoLink: "https://clrst.online/",
-    },
-
-    {
-      id: 6,
-      imgPath: saxo,
-      isBlog:false,
-      title: "Saxo Investment Company",
-      description:"This website is dedicated to empowering users in the world of cryptocurrency investment. It offers a comprehensive platform for swapping, investing with  crypto currencies. Designed for both beginners and experienced investors, the site provides insights into market trends and expert advice to help users make informed decisions. With robust security measures and user friendly navigation, this platform aims to simplify the investment process and support users in maximizing their cryptocurrency potentials.",
-      ghLink: "https://saxoinvestment.online",
-      demoLink:"https://saxoinvestment.online",
-    },
-
-    {
-      id: 7,
-      imgPath: myjob,
-      isBlog:false,
-      title: "Job Listing Website",
-      description:"This job listing website, built with Laravel, serves as an intuitive platform connecting job seekers with employers. Featuring advanced search filters, users can easily browse and apply for job opportunities across various industries. The site allows employers to post job listings, manage applications, and find the perfect candidates with ease. With a responsive design and user-friendly interface, this platform aims to streamline the job search process while providing valuable resources and insights to both job seekers and employers, ensuring a seamless and efficient experience",
-      ghLink:"https://github.com/oriakhiosamu1/my_job",
-      demoLink:"https://github.com/oriakhiosamu1/my_job",
-    },
-
-    {
-      id: 8,
-      imgPath: laravelReact,
-      isBlog:false,
-      title: "E-Commerce Website",
-      description:"This dynamic e-commerce shop, developed using Laravel and React, offers a seamless shopping experience that combines powerful backend functionality with an engaging frontend interface. Customers can effortlessly browse a wide range of products, filter by categories, and add items to their carts with real-time updates. The platform features secure payment processing, order tracking, and user account management, all while ensuring fast load times and responsiveness. With an intuitive design and integrated product reviews, this shop aims to provide a delightful and efficient shopping journey for all users.",
-      ghLink:"https://github.com/oriakhiosamu1/laravel-react-e-commerce-app ",
-      demoLink:"https://github.com/oriakhiosamu1/laravel-react-e-commerce-app ",
-    },
-
-    {
-      id: 9,
       imgPath: paralegal,
       isBlog:false,
       title: "Paralegal Web App",
