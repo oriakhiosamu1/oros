@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import rumax from '../assets/projects/rumax.png'
 import saxo from '../assets/projects/saxo.png'
 import myjob from '../assets/projects/myjob.png'
 import paralegal from '../assets/projects/paralegal.png'
 import laravelReact from '../assets/projects/laravel-react.jpg'
 import oxbow from '../assets/projects/oxbow.png'
 import acelife from '../assets/projects/acelife.png'
-import bookguru from '../assets/projects/bookguru.png'
 import realestate from '../assets/projects/realestate.png'
 import banking from '../assets/projects/banking.png'
 import pulsedex from '../assets/projects/pulsedex.png'
