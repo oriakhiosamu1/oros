@@ -12,6 +12,7 @@ import acelife from '../assets/projects/acelife.png'
 import bookguru from '../assets/projects/bookguru.png'
 import realestate from '../assets/projects/realestate.png'
 import banking from '../assets/projects/banking.png'
+import pulsedex from '../assets/projects/pulsedex.png'
 
 const Projects = () => {
 
@@ -28,12 +29,12 @@ const Projects = () => {
 
     {
       id: 2,
-      imgPath: bookguru,
+      imgPath: pulsedex,
       isBlog:false,
-      title: "Bookguru E-Learning Website",
-      description:"Bookguru E-Learning Website is a comprehensive e-learning platform designed to help students acquire in-demand technology skills while also preparing for secondary school examinations. The system provides structured tech courses, interactive learning resources, and a computer-based testing module that allows students to practice WAEC and NECO past questions with guided answers. The platform is built with scalability in mind, supporting user authentication, progress tracking, and future expansion into advanced assessments and analytics.", 
+      title: "Pulsedex Website",
+      description:"Pulsedex is a cryptocurrency exchange that allows users to trade cryptocurrencies worldwide and earn by mining.", 
       // ghLink: "https://github.com/oriakhiosamu1/oxbow",
-      demoLink: "https://www.bookguru.com.ng",
+      demoLink: "https://pulsedex.online/",
     },
 
     {
