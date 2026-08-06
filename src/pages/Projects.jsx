@@ -34,7 +34,6 @@ const Projects = () => {
       isBlog: false,
       title: "Oxbow Lake Hotel",
       description: "Oxbow is a full featured hotel booking and management platform built with a Laravel backend and React frontend. It supports real-time room availability checks, branch-specific admin dashboards (Swali and Gbarantoru), secure online payment via Paystack and automated status updates for bookings. The system also includes email confirmations, receipt generation and a structured booking flow tailored for both customers and hotel staff.",
-      ghLink: "https://github.com/oriakhiosamu1/oxbow",
       demoLink: "https://www.oxbowlakehotel.com.ng/",
     },
     {
@@ -43,7 +42,6 @@ const Projects = () => {
       isBlog: false,
       title: "Paralegal Web App",
       description: "This paralegal web app is designed to enhance the academic experience for students and administrators alike. With features such as personalized school portals, dedicated student and admin logins, and seamless integration with Paystack for secure payments, users can easily manage their educational needs. The app allows for PDF receipt downloads for transactions, simplifying record-keeping. Additionally, students can register for hostel accommodations directly through the portal. With a user-friendly interface and robust functionality, this app aims to streamline administrative processes while providing an efficient platform for students to access vital resources.",
-      ghLink: "https://github.com/oriakhiosamu1/paralegal_web_app",
       demoLink: "https://ugipnig.com/",
     },
   ];
