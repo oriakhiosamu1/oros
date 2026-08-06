@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Tabs, Tab } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
-import Particle from "../components/Particle";
 import paralegal from '../assets/projects/paralegal.png'
 import oxbow from '../assets/projects/oxbow.png'
 import realestate from '../assets/projects/realestate.png'
@@ -89,7 +88,6 @@ const Projects = () => {
 
   return (
     <Container fluid className="project-section">
-      {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
           Recent Top <strong className="yellow">Works </strong>
