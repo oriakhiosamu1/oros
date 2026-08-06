@@ -35,26 +35,30 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+        <Card.Text style={{ textAlign: "justify", fontSize: "15px" }}>
           {props.description}
         </Card.Text>
-        <Button
-          variant="primary"
-          href={props.ghLink}
-          target="_blank"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            alignContent: "flex-end",
-            textAlign: "center",
-            position: "relative",
-            bottom: "0px",
-          }}
-        >
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+
+        {props.ghLink && (
+          <Button
+            variant="primary"
+            href={props.ghLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              alignContent: "flex-end",
+              textAlign: "center",
+              position: "relative",
+              bottom: "0px",
+            }}
+          >
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
+          </Button>
+        )}
         {"\n"}
         {"\n"}
 
@@ -65,6 +69,7 @@ const ProjectCard = (props) => {
             variant="primary"
             href={props.demoLink}
             target="_blank"
+            rel="noopener noreferrer"
             style={{
               marginTop: "10px",
               display: "flex",

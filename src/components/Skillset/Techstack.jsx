@@ -6,7 +6,7 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
+  SiSpringboot,
   SiRedux,
   SiHtml5
 } from "react-icons/si";
@@ -41,7 +41,7 @@ const Techstack = () => {
         <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

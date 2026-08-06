@@ -4,22 +4,22 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/ORIAKHI-OSAMUDIAMEN-RESUME.pdf"
+import pdf from "../assets/Oriakhi_Osamudiamen_CV.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://eu.docworkspace.com/d/sIFeWw6quAty6q8AG`
-
-
 const Resume = () => {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(window.innerWidth);
+  const [numPages, setNumPages] = useState(null);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
-    
-    setWidth(window.innerWidth);
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -31,6 +31,7 @@ const Resume = () => {
             variant="primary"
             href={pdf}
             target="_blank"
+            download="ORIAKHI-OSAMUDIAMEN-RESUME.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -38,9 +39,29 @@ const Resume = () => {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+        <Row className="resume" style={{ justifyContent: "center" }}>
+          <Document
+            file={pdf}
+            className="d-flex flex-column align-items-center"
+            onLoadSuccess={({ numPages }) => {
+              setNumPages(numPages);
+              setLoadError(null);
+            }}
+            onLoadError={(error) => setLoadError(error.message)}
+            loading={<p style={{ color: "white" }}>Loading resume...</p>}
+          >
+            {loadError && (
+              <p style={{ color: "red" }}>
+                Couldn't load the resume: {loadError}
+              </p>
+            )}
+            {Array.from(new Array(numPages || 0), (_, index) => (
+              <Page
+                key={`page_${index + 1}`}
+                pageNumber={index + 1}
+                scale={width > 786 ? 1.7 : 0.6}
+              />
+            ))}
           </Document>
         </Row>
 
@@ -49,6 +70,7 @@ const Resume = () => {
             variant="primary"
             href={pdf}
             target="_blank"
+            download="ORIAKHI-OSAMUDIAMEN-RESUME.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -57,7 +79,7 @@ const Resume = () => {
         </Row>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

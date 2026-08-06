@@ -24,42 +24,44 @@ const About = () => {
                  and I'm from <span className="yellow"> EDO STATE, NIGERIA.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in BIOCHEMISTRY in 2023.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> FULL-STACK </b> developer,  
-                  specializing in PHP and LARAVEL, along with REACT.JS for dynamic UIs
-                  <br />
-                  <br />and API integration. I also create
-                    <b className="yellow"> MOBILE APPLICATIONS, </b>
-                    using REACT NATIVE. As a Beginner
-                  <b className="yellow"> PENETRATION TESTER / BUG BOUNTY HUNTER,</b>
+                  I'm a
+                  <b className="yellow"> BACKEND DEVELOPER </b>
+                  building reliable, scalable APIs with
+                  <b className="yellow"> JAVA / SPRING BOOT </b>
+                  and
+                  <b className="yellow"> PHP / LARAVEL, </b>
+                  paired with
+                  <b className="yellow"> REACT.JS </b>
+                  on the frontend when a project calls for it.
                   <br />
                   <br />
-                  I'm focused in enhancing my skills in
-                  <b className="yellow">CYBERSECURITY </b> and
+                  My day-to-day covers
+                  <b className="yellow"> RESTFUL API DESIGN, </b>
+                  <b className="yellow"> JWT AUTHENTICATION, </b>
+                  <b className="yellow"> MYSQL </b>
+                  database design, and integrating payment providers like
+                  <b className="yellow"> PAYSTACK AND FLUTTERWAVE </b>
+                  into production systems.
+                  <br />
+                  <br />
+                  I care about clean, maintainable code and ship with
+                  <b className="yellow"> CI/CD PIPELINES </b>
+                  via GitHub Actions, so features go from local machine to
+                  production without drama.
+                  <br />
+                  <br />
+                  I'm self-taught, currently deepening my
+                  <b className="yellow"> AWS </b>
+                  cloud fundamentals, and I bring a
                   <i>
                     <b className="yellow">
                       {" "}
-                      WEBSITE AND MOBILE APPLICATION SECURITY.
+                      BIOCHEMISTRY BACKGROUND
                     </b>
                   </i>
-                  {/* &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i> */}
+                  {" "}that shaped how I approach problems: methodically, and
+                  with attention to detail.
                   <br />
-                  <br />
-                  What sets me apart is my unique combination of
-                  <i>
-                    <b className="yellow"> WEB AND MOBILE DEVELOPMENT, </b>
-                    expertise coupled with a growing emphasis on
-                    <b className="yellow"> SECURITY, enabling me to deliver, </b>
-                    functional, secure and innovative applications.
-                  </i>
-                  <br />
-                  
                 </p>
               </Col>
               <Col md={4} className="myAvtar">
@@ -86,17 +88,6 @@ const About = () => {
                       <AiFillGithub />
                     </a>
                   </li>
-                  {/* <li className="social-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li> */}
                   <li className="social-icons">
                     <a
                       href="https://www.linkedin.com/in/osamudiamen-oriakhi-527197361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"

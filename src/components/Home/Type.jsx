@@ -6,10 +6,10 @@ const Type = () => {
         <Typewriter
           options={{
             strings: [
-              "PHP/Laravel Developer",
-              "Mobile Application developer",
-              "Passionate Penetration Tester",
-              "Offer your platform the best security"
+              "Backend Developer",
+              "Java / Spring Boot Developer",
+              "PHP / Laravel Developer",
+              "Building Secure, Scalable APIs"
             ],
             autoStart: true,
             loop: true,
