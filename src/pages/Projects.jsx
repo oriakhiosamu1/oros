@@ -5,7 +5,7 @@ import paralegal from '../assets/projects/paralegal.png'
 import oxbow from '../assets/projects/oxbow.png'
 import realestate from '../assets/projects/realestate.png'
 import pulsedex from '../assets/projects/pulsedex.png'
-// Add screenshots for your GitHub projects here, e.g.:
+import timothy from '../assets/projects/timothy.png'
 import githubImg from '../assets/projects/OIP.webp'
 // import blogWebsite from '../assets/projects/blog-website.png'
 
@@ -14,6 +14,15 @@ const Projects = () => {
   const liveWorks = [
     {
       id: 1,
+      imgPath: timothy,
+      isBlog: false,
+      title: "Personal Portfolio Website",
+      description: "A personal portfolio/Church website built with React, and Laravel. It features a responsive design, dynamic content management, and integration with social media platforms. The website serves as a showcase for personal projects, skills, and professional achievements, providing an engaging user experience.",
+      demoLink: "https://timothyknaadzenga.org/",
+    },
+
+    {
+      id: 2,
       imgPath: realestate,
       isBlog: false,
       title: "Real Estate Website",
@@ -21,7 +30,7 @@ const Projects = () => {
       demoLink: "https://christieesrealestate.com/",
     },
     {
-      id: 2,
+      id: 3,
       imgPath: pulsedex,
       isBlog: false,
       title: "Pulsedex Website",
@@ -29,7 +38,7 @@ const Projects = () => {
       demoLink: "https://pulsedex.online/",
     },
     {
-      id: 3,
+      id: 4,
       imgPath: oxbow,
       isBlog: false,
       title: "Oxbow Lake Hotel",
@@ -37,7 +46,7 @@ const Projects = () => {
       demoLink: "https://www.oxbowlakehotel.com.ng/",
     },
     {
-      id: 4,
+      id: 5,
       imgPath: paralegal,
       isBlog: false,
       title: "Paralegal Web App",
