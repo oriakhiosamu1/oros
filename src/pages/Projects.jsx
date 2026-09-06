@@ -60,12 +60,22 @@ const Projects = () => {
       id: 1,
       imgPath: githubImg,
       isBlog: false,
+      title: "Java Microservices — User & Order Services",
+      description: "A microservices-based backend built with Spring Boot, split into independent user-service and order-service applications that communicate over REST. Each service owns its own H2 database and is fully Dockerized with multi-stage builds, orchestrated together via Docker Compose. Demonstrates service-to-service communication, DTO-based data shaping, and containerized deployment of a multi-service Java backend.",
+      ghLink: "https://github.com/oriakhiosamu1/java_microservice",
+    },
+
+    {
+      id: 2,
+      imgPath: githubImg,
+      isBlog: false,
       title: "Spring Boot E-Commerce Shop",
       description: "A backend-focused e-commerce application built with Spring Boot, covering core commerce features such as product management, cart/order handling, and API-driven storefront logic. Built to demonstrate clean layered architecture (controller/service/repository) and RESTful API design principles for a full online shopping backend.",
       ghLink: "https://github.com/oriakhiosamu1/springboot_ecommerce_shop",
     },
+    
     {
-      id: 2,
+      id: 3,
       imgPath: githubImg,
       isBlog: false,
       title: "Spring Boot Blog Website",
